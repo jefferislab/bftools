@@ -1,0 +1,10 @@
+Package: bftools
+Type: Package
+Title: LOCI bioformats Java Library to Read Biological Image Data
+Version: 1.0
+Date: 2015-01-28
+Author: LOCI / Open Microscopy Environment
+Maintainer: Gregory Jefferis <jefferis@gmail.com>
+Description: This packge simply bundles the LOCI
+Url: http://loci.wisc.edu/software/bio-formats
+License: Various
