@@ -8,3 +8,5 @@ Maintainer: Gregory Jefferis <jefferis@gmail.com>
 Description: This packge simply bundles the LOCI
 Url: http://loci.wisc.edu/software/bio-formats
 License: Various
+Suggests:
+    testthat
