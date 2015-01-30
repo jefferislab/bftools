@@ -13,8 +13,9 @@ showinf<-function(f, ..., outfile=NULL) {
   si=system.file("java","showinf", package='bftools')
   if(missing(f)) return(system2(si, "-no-upgrade"))
   stdout = if(is.null(outfile)) TRUE
-  else if(is.logical(outfile) && isTRUE(outfile)) {
-    paste0(tools::file_path_sans_ext(f),".txt")
+  else if(is.logical(outfile) ) {
+    if(isTRUE(outfile)) paste0(tools::file_path_sans_ext(f),".txt")
+    else TRUE
   } else outfile
   system2(si, args=c("-nopix", "-no-upgrade", ..., shQuote(path.expand(f))), 
           stdout=stdout)
