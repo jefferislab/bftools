@@ -12,3 +12,4 @@ Url: http://loci.wisc.edu/software/bio-formats
 License: Various
 Suggests:
     testthat
+RoxygenNote: 5.0.1.9000
