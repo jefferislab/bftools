@@ -11,7 +11,7 @@
 #'   success or failure of of call.
 showinf<-function(f, ..., outfile=NULL) {
   si=system.file("java","showinf", package='bftools')
-  if(missing(f)) return(system2(si, "-no-upgrade"))
+  if(missing(f)) return(system2(si, "-no-upgrade", ...))
   stdout = if(is.null(outfile)) TRUE
   else if(is.logical(outfile) ) {
     if(isTRUE(outfile)) paste0(tools::file_path_sans_ext(f),".txt")
