@@ -2,12 +2,11 @@
 % Please edit documentation in R/bftools-package.R
 \docType{package}
 \name{bftools-package}
-\alias{bftools}
 \alias{bftools-package}
+\alias{bftools}
 \title{Libraries for biological image input/output}
 \description{
 See \url{http://loci.wisc.edu/software/bio-formats} for detailed description
 of the contents, licensing etc.
 }
 \keyword{package}
-

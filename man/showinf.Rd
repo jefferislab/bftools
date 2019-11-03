@@ -23,4 +23,3 @@ A character vector containing metadata or an integer value indicating
 \description{
 Extract metadata for an image using bioformats
 }
-
